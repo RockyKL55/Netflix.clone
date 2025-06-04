@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSkTKMNZD1bPNgkvJoG6CzxZ1kvZwJcISjg&s);
+        }
+
+        .item{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: flex-end;
+            padding: 5px;
+            list-style: none;
+            font-size: small;
+        }
+
+        .item1{
+            position: relative;
+            right: 120px;
+            padding: 3px;
+        }
+
+        a{
+            text-decoration: none;
+            color: azure;
+        }
+
+        #looks{
+            color: red;
+            display: flex;
+            font-weight: bolder;
+            font-size: 40px;
+            position: relative;
+            left: 150px;
+        }
+
+        #look2{
+            background-color: red;
+        }
+        #description{
+            text-align: center;
+            margin-top: 80px;
+            color: white;
+        }
+        .description1{
+            text-align: center;
+            color: white;
+        }
+        #description2{
+            position: relative;
+        }
+        #description2{
+            position: absolute;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-content: center;
+            margin-top: 15px;
+            gap: 5px;
+            /* left: 550px; */
+        }
+        /* .description2{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: red;
+            border: 1px solid white;
+            padding: 5px;
+            border-radius: 20px;
+            justify-content: center; */
+        }
+        @media only screen (max-width:1800px){
+            body{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header id="looks">NETFLIX</header>
+    <ul class="item">
+        <li style="border: 1px solid white;" class="item1"><a href="English.com">English</a></li>
+        <li style="border: 1px solid white;" class="item1" id="look2"><a href="Sign in.com">Sign in</a></li>
+    </ul>
+    <h1 id="description">Enjoy big movies,hit series and more from $2.</h1>
+    <div class="description1">
+        <p>Join today. cancel anytime.</p>
+        <p>Ready to watch?Enter your email to create or restart your membership.</p>
+    </div>
+    <form id="description2" action="where the data will be stored" method="post" enctype="multipart/form-data" >
+        <input type="email" placeholder="email address">
+        <input type="submit">
+        <!-- <li class="description2" ><a href="GetStarted.com">Get Started ></a></li> -->
+    </form>
+</body>
+</html>
