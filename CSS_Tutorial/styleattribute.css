@@ -1,0 +1,14 @@
+[target]{
+    padding: 10px;
+    display: block;
+    color: aqua;
+    font-size: 25px;
+}
+
+[href$="html"]{
+    background-color: black;
+}
+
+[href^="http"]{
+    background-color: brown;
+}

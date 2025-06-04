@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        
+        .Static-Box{
+            position: static;
+            border: 2px solid red;
+            padding: 10px;
+            height: 300px;
+        }
+
+        .Relative-Box{
+            position: relative;
+            top: 50px;
+            border: 2px solid black;
+            padding: 10px;
+            width: 200px;
+        }
+
+        .absolute-container{
+            position: relative;
+            height: 200px;
+            border: 2px solid green;
+        }
+        .absolute-box{
+            position: absolute;
+            bottom: 20px;
+            right: 50px;
+            border: 2px solid orange;
+            padding: 10px;
+        }
+
+        .Fixed-box{
+            position: fixed;
+            padding: 10px;
+            top: 20px;
+            right: 20px;
+            border: 2px solid black ;
+        }
+
+        .Sticky-Box{
+            position: sticky;
+            top: 100px;
+            background-color: lightgrey;
+            border: 1px solid black; 
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body style="height: 300vh;">
+    
+    
+    <div class="Static-Box">Static positioning</div>
+
+    <div class="Relative-Box">Relative-Positioning</div> 
+    
+    <div class="absolute-container">
+         <div class="absolute-box">Absolute-Positioning</div>
+    </div> 
+    
+    <h1 class="Fixed-box" >Fixed Positioning</h1>
+
+    <div style="height: 1000px; padding-top: 200px;">Scroll Down</div>
+    <div class="Sticky-Box">Sticky Positioning</div>
+
+
+</body>
+</html>

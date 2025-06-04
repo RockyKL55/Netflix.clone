@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            height: 180px;
+            width: 180px;
+            background-color: brown;
+            color:beige;
+            font-size: 30px;
+        }
+
+        .ease{
+            transition: all 2s ease-in-out;
+        }
+        
+        .box:hover{
+            background-color: burlywood;
+            width: 300px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box ease">transition tymings</div>
+</body>
+</html>
+
+
+<!-- transition has 6 speed curves
+ease
+ease-in
+ease-out
+ease-in-out
+linear
+cubic-beizer -->

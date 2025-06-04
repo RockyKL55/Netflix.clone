@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <style>
+        .adjust{
+            height: 200px;
+            margin: 20px;
+            width: 400px;
+        }
+        
+        #linear-gradient {
+            background: linear-gradient(to right, white,black);
+        }
+
+        #radial-gradient {
+            background: radial-gradient(circle, white,black);
+            color: red;
+        }
+
+        #elliptical-gradient {
+            background: radial-gradient(ellipse, white,black);
+            color: red;
+            
+        }
+    </style>
+</head>
+<body>
+        <div id="linear-gradient" class="adjust">
+       <strong>linear gradient</strong>
+        </div>   
+
+        <div id="radial-gradient" class="adjust">
+            radial gradient
+        </div>
+
+        <div id="elliptical-gradient" class="adjust">
+            elliptical gradient
+        </div>
+</body>
+</html>

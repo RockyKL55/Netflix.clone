@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+    <style>
+        .box{
+            padding: 10px;
+            border: 5px solid black;
+            margin: 20px;
+            float: left;
+            color: aliceblue;
+            width: 200px;
+        }
+
+        #content-box{
+            background-color: red;
+            box-sizing: content-box;
+        }
+
+        #border-box{
+            background-color: green;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="content-box" class="box">
+        <strong>Content-box</strong> <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatibus beatae, odit qui ex,
+        sunt dolorem eveniet amet  ipsam officia 
+        architecto eius rerum aspernatur?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatibus beatae, odit qui ex,
+        sunt dolorem eveniet amet  ipsam officia 
+        architecto eius rerum aspernatur?</p>
+    </div>
+
+    <div id="border-box" class="box">
+        <strong>Border-box</strong> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatibus beatae, odit qui ex,
+        sunt dolorem eveniet amet  ipsam officia 
+        architecto eius rerum aspernatur?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatibus beatae, odit qui ex,
+        sunt dolorem eveniet amet  ipsam officia 
+        architecto eius rerum aspernatur?
+    </div>
+</body>
+</html>

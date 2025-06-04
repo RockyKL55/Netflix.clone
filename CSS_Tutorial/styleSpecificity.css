@@ -1,0 +1,19 @@
+h1{ 
+    background-color: yellow;
+    padding: 20px;
+}
+
+.heading{ 
+    background-color: tomato ;
+}
+
+#first_heading{
+    background-color: aqua;
+    color: azure;
+}  
+
+
+
+/* !important; (if we use this it will be having more value than internal styling)
+
+internal styling > id > class > h1 > *. */
