@@ -74,3 +74,8 @@
 // }
 //     word("rockygmail.com")   
 
+// function num(a){
+//     return a*a
+// }
+// let out = num(3)
+// console.log(out);
