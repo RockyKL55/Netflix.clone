@@ -7,13 +7,16 @@
                     
 // --------FOR OF LOOP--------- 
 
+
 // let x = "rocky rainbird new version"
 
 // for (let el of x){
 //     console.log(el);
 // }
 
+
 // --------FOR IN LOOP---------
+
 
 // let x = "rocky rainbird new version"
 
@@ -70,7 +73,9 @@
 //     a++
 // }
 
+
 // --------DO WHILE LOOP--------
+
 
 // let a = 4
 // let x = true
@@ -86,6 +91,7 @@
     
 
 // ---------EXAMPLES---------
+
 
 // let num = 6
 // for(let i=1;i<=10;i=i+1){
@@ -117,12 +123,10 @@
 
 
 let frontend= ["html","css","js","react","mongodb"]
-// for (let el in frontend){
-//     console.log(el,frontend[el]);
+for (let el in frontend){
+    console.log(el,frontend[el]);
 
-// for(let i=2;i<frontend.length;i=i+1){
-//     console.log(i,frontend[i]);
-//  }
-// }
-    
-
+for(let i=2;i<frontend.length;i=i+1){
+    console.log(i,frontend[i]);
+ }
+}

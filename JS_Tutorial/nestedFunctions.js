@@ -1,5 +1,5 @@
-function outerFunction(){
-    console.log("i am outer function");
+function outerFunction(age){
+    console.log("i am outer function",`${age}`);
     
     function innerFunction(name){
         console.log(`hello ${name}`);
@@ -7,6 +7,5 @@ function outerFunction(){
     }
     return innerFunction
 }
-let out = outerFunction()
 
-out('pollard')
+outerFunction(55)('pollard')
