@@ -11,12 +11,12 @@
 // printAll(11,22,33,44,55,66,77,88,99,12,13,14)
 
 
-// function numCode(){
-//     for(let arg in arguments)
-//         console.log(`Argument #${parseInt(arg)+1} is ${arguments[arg]}`);
+function numCode(){
+    for(let ele in arguments)
+        console.log(`Argument #${parseInt(ele)} is ${arguments[ele]}`);
         
-// }
-// numCode(11,22,33,44,55,66,77,88,99,12,13,14)
+}
+numCode(11,22,33,44,55,66,77,88,99,12,13,14)
 
 
 // -------invocate function-------
