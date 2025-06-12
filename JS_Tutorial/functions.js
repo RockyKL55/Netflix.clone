@@ -13,7 +13,7 @@
 
 function numCode(){
     for(let ele in arguments)
-        console.log(`Argument #${parseInt(ele)} is ${arguments[ele]}`);
+        console.log(`Argument #${parseInt(ele)+1} is ${arguments[ele]}`);
         
 }
 numCode(11,22,33,44,55,66,77,88,99,12,13,14)
