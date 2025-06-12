@@ -1,7 +1,7 @@
 // ------Truthy and Falsy values-------
 // if the value is 0 the output will be falsy other than 0, positive or negative the output will be truthy
 
-let some_var
+let some_var = ' '
 
 // some_var = true             Truthy Value
 // some_var = false            Falsy Value

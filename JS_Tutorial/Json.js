@@ -9,48 +9,48 @@
 //     isEmployed: false,
 //     hobbies:["cricket","cycling","roaming"]
 // }
-let people = [{
-    "name": "Rocky",
-    "age": 25,
-    isEmployed: false,
-    hobbies:["cricket","cycling","roaming"]
-},
-{
-    "name": "Rocky",
-    "age": 25,
-    isEmployed: false,
-    hobbies:["cricket","cycling","roaming"]
-},
-{
-    "name": "Rocky",
-    "age": 25,
-    isEmployed: false,
-    hobbies:["cricket","cycling","roaming"]
-},
-{
-    "name": "Rocky",
-    "age": 25,
-    isEmployed: false,
-    hobbies:["cricket","cycling","roaming"]
-}]
-let jsonstring = JSON.stringify(people)
-console.log(jsonstring);
+// let people = [{
+//     "name": "Rocky",
+//     "age": 25,
+//     isEmployed: false,
+//     hobbies:["cricket","cycling","roaming"]
+// },
+// {
+//     "name": "Rocky",
+//     "age": 25,
+//     isEmployed: false,
+//     hobbies:["cricket","cycling","roaming"]
+// },
+// {
+//     "name": "Rocky",
+//     "age": 25,
+//     isEmployed: false,
+//     hobbies:["cricket","cycling","roaming"]
+// },
+// {
+//     "name": "Rocky",
+//     "age": 25,
+//     isEmployed: false,
+//     hobbies:["cricket","cycling","roaming"]
+// }]
+// let jsonstring = JSON.stringify(people)
+// console.log(jsonstring);
 
 
 
 // let names = `["Rakesh","Puttu","pruthvi","rohit"]`;
 
 
-let person = `{"name":"Rocky","age": 25, "isEmployed": false,"hobbies":["cricket","cycling","roaming"]}`
+// let person = `{"name":"Rocky","age": 25, "isEmployed": false,"hobbies":["cricket","cycling","riding"]}`
 
 
-// let people = `[{ "name": "Rocky","age": 25, "isEmployed": false,"hobbies":["cricket","cycling","roaming"]},
-//               { "name": "Rocky","age": 25,"isEmployed": false,"hobbies":["cricket","cycling","roaming"]},
-//               {"name": "Rocky","age": 25,"isEmployed": false,"hobbies":["cricket","cycling","roaming"]},
-//               {"name": "Rocky","age": 25,"isEmployed": false,"hobbies":["cricket","cycling","roaming"]}]`
+let people = `[{ "name": "Rocky","age": 25, "isEmployed": false,"hobbies":["cricket","cycling","roaming"]},
+              { "name": "Rocky","age": 25,"isEmployed": false,"hobbies":["cricket","cycling","roaming"]},
+              {"name": "Rocky","age": 25,"isEmployed": false,"hobbies":["cricket","cycling","roaming"]},
+              {"name": "Rocky","age": 25,"isEmployed": false,"hobbies":["cricket","cycling","roaming"]}]`
 
 
-let parsedData = JSON.parse(person)
+let parsedData = JSON.parse(people)
 
-console.log(person);
+console.log(people);
 
