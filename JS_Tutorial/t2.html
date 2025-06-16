@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,33 +22,25 @@
 <body>
     <button onclick="changeDivStyle()"
     style="padding: 10px;width: 100px;margin: 20px;background-color: blue;color: white; border: 1px solid white; border-radius: 15px;">click me</button>
-    <div id="first_div" class="green_group">
+    <div id="first_div" class="green_group group 1">
 
     </div>
-    <div id="second_div" class="green_group">
+    <div id="second_div" class="green_group group 2">
 
     </div>
-
-
-
 
     <script>
 
         let changeDivStyle = () => {
 
-       let second_div= document.getElementById('second_div')
-        
-        second_div.innerHTML = "GOOD DAY"
-        second_div.style.backgroundColor = "yellow"
-
+       let div_group = document.getElementsByClassName('group 2')
+        console.log(div_group);
+        for(el of div_group){
+        el.innerHTML = "GOOD DAY"
+        el.style.backgroundColor = "yellow"
         }
-
-
-
+    }
 
     </script>
 </body>
 </html>
-
-
-
