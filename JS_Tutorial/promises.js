@@ -101,14 +101,28 @@
 // })
 // p1.then((res)=> console.log(res))
 
-let p1 = new Promise((res,rej)=>{
-    let num = 8
-    if(num<10){
-        res("Resolved")
-    }
-    else{
-        rej("rejected")
-    }
-})
-p1.then((results)=> console.log(results))
-  .catch((results)=> console.log(results))
+// let p1 = new Promise((res,rej)=>{
+//     let num = 8
+//     if(num<10){
+//         res("Resolved")
+//     }
+//     else{
+//         rej("rejected")
+//     }
+// })
+// p1.then((results)=> console.log(results))
+//   .catch((results)=> console.log(results))                                              
+
+
+// let p1 = new Promise((res,rej) =>{
+//     setTimeout(()=>{
+//         res("hello")
+//     },2000)
+
+//     rej("bad day")
+// })
+
+// p1.then((results)=>console.log(results))
+//   .catch((error)=>console.log(error))
+
+

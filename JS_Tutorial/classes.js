@@ -175,11 +175,17 @@
 //     d1.makeSound()
 
 // --------------------------------------------
-
-class Math{
-    static add(x,y){
-        console.log(x+ y);
+class person{
+    constructor(){
+        this.age = 24
+        this.name = "Rohit"
+    }
+    greet(){
+    console.log(`hii my name is ${this.name} and i am ${this.age} years` );
     }
 }
-let Math1 = new Math()
-Math.add(5,10)
+let p1 = new person()
+p1.greet()
+
+// ----------------------------------------------
+
