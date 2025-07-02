@@ -82,7 +82,21 @@
 // console.log(out2);
 
 
-let alpha =['a','b','c','d']
-console.log(alpha.join('-'));
+// let alpha =['a','b','c','d']
+// console.log(alpha.join('-'));
+
+// let arr = [1,2,3,4,5]
+// let sum = 0
+// for(let i=0;i<arr.length;i++){
+//     sum=sum+arr[i]
+// }
+// console.log(sum);
 
 
+// let arr = [1,2,3,4,5]
+// let num = []
+// for(let i=arr.length-1;i>=0;i--){
+//    num.push[arr(i)]
+    
+// }
+// console.log(num);

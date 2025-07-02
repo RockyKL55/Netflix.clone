@@ -126,3 +126,9 @@
 //   .catch((error)=>console.log(error))
 
 
+let p1 = new Promise((res,rej)=>{
+    setTimeout(()=>{
+        res("Hello")
+    },5000)
+})
+p1.then((result)=>console.log(result))

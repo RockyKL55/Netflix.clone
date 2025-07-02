@@ -37,4 +37,27 @@
 
 // -------------------------------------------
 
+// let numbers =[1, 2 , 3, [4, 5], 6, [7]] ;
+// function flattenArray (arr) {
+//     let result = [];
+
+// function flat(current) {
+//     for(let i=0; i<current.length; i++){
+//         if(Array.isArray(current[i])){
+//             flat(current[i]);
+//         }
+//         else{
+//             result.push(current[i]);
+//         }
+//     }
+// }
+// flat(arr);
+// return result;
+// }
+// let flatNumbers = flattenArray(numbers)
+// console.log(flatNumbers);
+
+
+
+
 
